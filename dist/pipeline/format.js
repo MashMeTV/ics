@@ -33,7 +33,7 @@ function formatEvent() {
   icsFormat += 'VERSION:2.0\r\n';
   icsFormat += 'CALSCALE:GREGORIAN\r\n';
   icsFormat += (0, _utils.foldLine)('PRODID:' + productId) + '\r\n';
-  icsFormat += 'METHOD:PUBLISH\r\n';
+  icsFormat += 'METHOD:REQUEST\r\n';
   icsFormat += 'X-PUBLISHED-TTL:PT1H\r\n';
   icsFormat += 'BEGIN:VEVENT\r\n';
   icsFormat += 'UID:' + uid + '\r\n';
